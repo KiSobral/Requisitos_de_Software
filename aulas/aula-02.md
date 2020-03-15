@@ -129,6 +129,12 @@ Contudo, a filosofia (tradicional ou ágil) que sustenta essa execução, faz co
 
 ![](../assets/images/time.jpg)
 
+## Atividades da Engenharia de Requisitos
+
+### Elicitação de requisitos
+
+![](../assets/images/gap_elicitacoes.jpg)
+
 ## Notas
 
 ### Stakeholders
