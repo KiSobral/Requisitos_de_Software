@@ -135,6 +135,145 @@ Contudo, a filosofia (tradicional ou ágil) que sustenta essa execução, faz co
 
 ![](../assets/images/gap_elicitacoes.jpg)
 
+_A elicitação de requisitos pode ser considerada a atividade mais importante do processo de Engenharia de Requisitos._ <br/> **(GOGUEN, 1994)**
+
+_Processo cuidadoso de análise da organização, do domínio da aplicação e do processo de negócio, no qual o sistema será utilizado._ <br/> **(PRESSMAN, 2002)**
+
+_É um processo de **transferência de conhecimento** do stakeholder para o engenheiro de requisitos._ <br/> **(KOTONYA, 1998)**
+
+O processo de elicitação de requisitos requer uma **forte comunicação** entre analistas e stakeholders.
+
+#### Técnicas
+
+- Estudo de documentação
+- Análise de contexto
+- Observação
+- Análise social
+- Estudo etnográfico
+- Entrevista
+- Reunião JAD (Joint Application Development)
+- Brainstorming
+- Workshop
+- Grupo focal
+- Questionário
+- ...
+
+### Análise e Negociação
+
+Nem tudo aquilo que se quer fazer em termos de software pode ser feito. O analista deve expor os motivos que possam limitar os requisitos e negociá-los msotrando os riscos envolvidos.
+
+_Refinar os requisitos e assegurar-se de que todas as partes interessadas compreendam e estejam atentos para erros e outras deficiências._ <br/> **(WIEGERS, 2003)**
+
+### Documentação
+
+_Os requisitos aprovados na atividade de análise e negociação devem ser registrados._ <br/> **(KOTONYA, 1998)**
+
+_A especificação do sistema é o produto de trabalho final desenvolvido pelo engenheiro de requisitos._ <br/> **(PRESSMAN, 2002)**
+
+_Os modelos gráficos, auxiliam os engenheiros de softwarea entenderem a estrutura do projeto._ <br/> **(PRESSMAN, 2002)**
+
+### Verificação e Validação
+
+Esse processo visa antecipar problemas antes que eles passem para as fases seguintes.
+
+> _"A validação de requisitos examina a especificação para garantir que todos os requisitos tenham sido declarados de modo não ambíguo, que as inconsistências, omissões e erros tenham sido detectados e corrigidos e que os produtos de trabalho estejam de acordo com as normas estabelecidas para o processo, projeto e produto."_ <br/> **(PRESSMAN, 2002)**
+
+Esta atividade verifica se:
+
+- Os requisitos estão claramente estabelecidos
+- Os requisitos podem ser mal interpretados
+- A fonte dos requisitos está identificada
+- O requisito está limitado em termos quantitativos
+- Pode-se rastrear os requisitos em qualquer modelo criado do sistema
+- O requisito viola alguma restrição de domínio
+- Outros requisitos se relacionam com esse requisito
+
+#### Verificação
+
+A verificação é o processo que confirma se o produto está sendo construindo de **maneira correta**.
+
+#### Validação
+
+A validação é o processo que confirma se o time está construindo o **projeto certo**.
+software
+
+### Gerência de requisitos
+
+_"Essa atividade possui como objetivo administrar os requisitos ao longo do projeto de software."_ <br/> **(PRESSMAN, 2002)**
+
+Mantém a sincronia entre os requisitos e as demais atividades do processo de desenvolvimento.
+
+Avalia os impactos e riscos envolvidos nas mudanças
+
+#### Princípios
+
+- Gerenciar as mudanças, para o aceite dos requisitos
+- Gerenciar o relacionamento entre os requisitos
+- Gerenciar as dependências entre o documento de requisitos e outros documentos produzidos durante o proceso de Engenharia de Software.
+
+## Identificação e Armazenagem
+
+Os requisitos devem ser guardados e devem ter um identificador único (chave)
+
+Além da chave deve possuir uma identificação simbólica. Como FEAT1, FEAT2.
+
+![](../assets/images/armazenagem.jpg)
+
+O desejável é que os requisitos sejam aramzenados com as seguintes facilidades:
+
+- Informações sobre as dependências de requisitos
+- Capacidade de busca
+- Controle de versões
+- Relacionamento dos requisitos e suas representações visuais
+
+## Gerência de Mudança
+
+A informalidade é a maior problemática dentro do especto da gerência de mudança
+
+Estatísticas mostram que 80% das mudanças nos requisitos são feitas na informalidade
+
+O processo de mudança é composto de três fases:
+
+- Análise do problema e espcificação da mudança
+- Análise da mudança (avaliação de custo e risco(
+  )
+- Implementação da mudança
+
+## Rastreabilidade
+
+### Definições
+
+Técnica usada para estabelecer o relacionamento entre requisitos, projeto e implementação final do sistema
+
+É uma característica de sistemas nos quais os requisitos são claramente ligados às suas fontaes e aos artefados criados durante o ciclo de vida de desenvolvimento do sistema
+
+Habilidade de permitir que mudanças em qualquer artefato (requisitos, especificação e implementação) sejam rastreadas através do sistema.
+
+![](../assets/images/rastreabilidade_esquema.jpg)
+
+As informações usadas para avaliar o impacto da mudança são:
+
+- Dependências dos requisitos
+- Lógica dos requisitos
+- Código de implementação dos requisitos
+
+A estes elementos dá-se o nome de informações de rastreabilidade
+
+as referências cruzadas garantem que os requisitos podem ser avaliados em termos de dependência
+
+Tabela da Rastreabilidade ou **Matriz da Rastreabilidade**.
+
+## Papéis na Engenharia de Requisitos
+
+Os **stakeholders** são TODAS as pessoas envolvidas ou afetadas, direta ou indiretamento pelo software em desenvolvimento, entre elas:
+
+- **Expert de domínio**: Profundo conhecedor de assuntos relativos ao sistema. Pode ser uma consultoria externa.
+- **Usuário final**: Pessoa que irá operar o sistema após sua conclusão. Esta é fundamental para o sucesso do projeto.
+- **Engenheiro de software**: Profissional de TI expert em linguagem de programação, redes, segurança, banco de dados e outros.
+- **Engenheiro de requisitos**: Analista de sistema responsável por levantar os requisitos, documentá-los e gerenciá-los.
+- **Gerente de projeto**: Líder responsável por planejar e estimar as atividades do projeto. Este irá, após a fase de engenharia de requisitos, comandar o projeto.
+- **Sponsor**: É aquele responsável pelo financiamento do projeto. Cabe ao sponsor tomar as decisões estratégicas.
+
 ## Notas
 
 ### Stakeholders
